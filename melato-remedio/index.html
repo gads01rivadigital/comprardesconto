@@ -25,68 +25,17 @@
             }
         </style>
 
-<!-- SCRIPT DE REDIRECIONAMENTO AQUI -->
-<script type="text/javascript" async="" src="./index_files/runtime.2.7.2.js.download"></script><script async="" src="./index_files/script.js.download"></script><script async="" src="./index_files/script.js.download"></script><script type="text/javascript">
-    (function(b){
-        var a={
-            version:"0.0.1",
-            history_api:typeof history.pushState!=="undefined",
-            init:function(){
-                b.location.hash="#no-back";
-                a.configure();
-            },hasChanged:function(){
-                if(b.location.hash=="#no-back"){
-                    b.location.hash="#";
-                    b.location.href="./pv/"; //LINK PARA REDIRECIONAR AQUI
-                }
-            },checkCompat:function(){
-                if(b.addEventListener){
-                    b.addEventListener("hashchange",a.hasChanged,false);
-                }else{
-                    if(b.attachEvent){
-                        b.attachEvent("onhashchange",a.hasChanged);
-                    }else{
-                        b.onhashchange=a.hasChanged;
-                    }
-                }
-            },configure:function(){
-                if(b.location.hash=="#no-back"){
-                    if(this.history_api){
-                        history.pushState(null,"","#");
-                    }else{
-                        b.location.hash="#";
-                        b.location.href="./pv/"; //LINK PARA REDIRECIONAR AQUI
-                    }
-                }
-                a.checkCompat();
-                a.hasChanged();
-            }
-        };
-        if(typeof define==="function"&&define.amd){
-            define(function(){
-                return a;
-            });
-        }else{
-            if(typeof module==="object"&&module.exports){
-                module.exports=a;
-            }else{
-                b.noback=a;
-            }
-        }a.init();
-    }(window));
-</script>
-<!-- SCRIPT DE REDIRECIONAMENTO AQUI -->
-
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1010042088"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16501763102"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-1010042088');
+  gtag('config', 'AW-16501763102');
 </script>
+
 
 
   </head>
